@@ -1,3 +1,3 @@
-# HackerRank_C
+# HackerRank_codes
 
-This repository contains all the C programs created while completing the HackerRank C programming challenges
+This repository contains all the programs created while completing the HackerRank programming challenges
