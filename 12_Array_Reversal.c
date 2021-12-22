@@ -14,13 +14,15 @@ int main()
     scanf("%d", &n);
     int temp;
     int *arr;
-    arr = (int *)malloc(n * sizeof(int));
+    arr = (int *)malloc(n * sizeof(int));   //Allocate memory with respect to size of integer tyoe size
 
+    //Print the contents inside the array
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
 
+    //Print the contents inside the array inreverse order
     for (int i = n-1 ; i>=0 ; i--)
     {
         printf("%d ", arr[i]);

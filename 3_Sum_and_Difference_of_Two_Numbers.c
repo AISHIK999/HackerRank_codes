@@ -16,17 +16,19 @@ Print the sum and difference of two float variable rounded to one decimal place 
 int main()
 {
 	
-    int a, b;
-    float c, d;
+    int a, b;   //Create integer type variables
+    float c, d; //Create float type variables
 
+    //Take user input of double type and store it in the variables a and b
     scanf("%d", &a);
     scanf("%d", &b);
 
+    //Take user input of float type and store it in the variable c and d
     scanf("%f", &c);
     scanf("%f", &d);
 
-    printf("%d %d\n", (a+b), (a-b));
-    printf("%0.1f %0.1f", (c+d), (c-d));
+    printf("%d %d\n", (a+b), (a-b));    //Print out the sum and subtraction of values stored in 'a' and 'b'
+    printf("%0.1f %0.1f", (c+d), (c-d));    //Print out the sum and subtraction of values stored in 'c' and 'd', and rounf the outputs upto 1 decimal places
     
     return 0;
 }

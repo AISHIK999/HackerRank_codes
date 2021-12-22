@@ -19,8 +19,9 @@ int main()
 {
     int num;
     scanf("%d", &num);
-    if(num >= 1 && num <= 9)
+    if(num >= 1 && num <= 9)    //Enter the statement only when the value stored in'num' variable is greater or equal to 1 and lesser or equal o 9
     {
+        // Print the specific statement if the conditions for an if statement are met
         if (num == 1)
         {
             printf("one");
@@ -58,6 +59,7 @@ int main()
             printf("nine");
         }    
     }
+    //Enter this when the initial 'if' statement conditions are not met
     else if (num > 9)
     {
         printf("Greater than 9");

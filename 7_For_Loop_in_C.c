@@ -11,17 +11,18 @@ Else if n>9 and it is an odd number, then print "odd".
 #include <math.h>
 #include <stdlib.h>
 
-
-
-int main() 
+int main()
 {
     int a, b;
     scanf("%d\n%d", &a, &b);
-  	
+
+    //Enter the while loop when the value of 'a' is greater than or equal to 'b' are met
     while (a <= b)
     {
-        if(a >= 1 && a <= 9)
+        //Enter the if statement when the value of 'a' is greater than or equal to 1 and lesser than or equl to 9
+        if (a >= 1 && a <= 9)
         {
+            //Print the statement inside the if condition when the conditions are met
             if (a == 1)
             {
                 printf("one\n");
@@ -57,8 +58,9 @@ int main()
             else if (a == 9)
             {
                 printf("nine\n");
-            }    
+            }
         }
+        //Enter the 'else if' condition when the initial 'if' statemnt condition are not met
         else if (a > 9)
         {
             if (a % 2 == 0)
@@ -70,11 +72,8 @@ int main()
                 printf("odd\n");
             }
         }
-
         a++;
     }
-    
 
     return 0;
-    
 }

@@ -11,14 +11,14 @@ While it is true that you can sum the elements as they are read, without first s
 
 int main()
 {
-    int *arr, n, sum = 0;
+    int *arr, n, sum = 0;   //Create a pointer and two integer type variables
     scanf("%d", &n);
-    arr = (int *)malloc(n * sizeof(int));
+    arr = (int *)malloc(n * sizeof(int));   //Allocate memory for size of int type
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) //Use the for loop to store the values inside the array 'arr'
     {
         scanf("%d", &arr[i]);
-        sum += arr[i];
+        sum += arr[i];  //Increment the value stored inside the variable 'sum' with the each element stored in the array
     }
     printf("%d", sum);
     return 0;
